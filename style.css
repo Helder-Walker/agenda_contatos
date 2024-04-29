@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d4e7d4;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    padding: 0;
+}
+div h1{
+    margin-left: 11px;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+input[type="number"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3813dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #2205a0;
+}
